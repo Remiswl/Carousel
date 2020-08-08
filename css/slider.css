@@ -1,0 +1,97 @@
+
+/********************** NAVIGATION ***********************/
+.navigation {
+    text-align:center;
+    margin:auto;
+}
+
+.buttonShow {
+    width:50px;
+    height:50px;
+    border:white 2px solid ;
+    border-radius:10px;
+    margin:30px 20px 10px 20px;
+    background-color:orange;
+    color:white;
+    text-align:center;
+}
+
+.buttonHide {
+    display:none;
+}
+
+/********************** SLIDER ************************/
+.slider {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.slider > .button {
+    width:50px;
+    height:50px;
+    border:0;
+    border-radius:10px;
+    margin:30px 20px 10px 20px;
+    background-color:transparent;
+    color:white;
+    text-align:center;
+}
+
+.slider > .button > .fas {
+    font-weight:bold;
+    font-size:50px;
+}
+
+figure {
+    display: none;
+    width:80%;
+    height:auto;
+}
+
+.active {
+    display: block;
+    position:relative;
+}
+
+main img {
+    border:white 10px solid;
+    border-radius:10px;
+}
+
+figcaption {
+    width:100%;
+    background-color:rgba(255, 255, 255, 0.5);
+    font-size:20px;
+    font-weight:bold;
+    padding:20px 10px 10px 20px;
+    border-radius:10px;
+    position:absolute;
+    
+    top:0px;
+    left:0px;
+}
+
+/********************** MINIATURES *********************/
+ol {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+ol > img {
+    border-width:1px;
+    margin: 0px 5px 0px 5px;
+}
+
+.opacity {
+    opacity:.5;
+}
+
+/********************** COMPTEUR **********************/
+#center {
+    text-align:center;
+    margin:auto;
+    font-weight:bold;
+    margin-bottom:10px;
+}
