@@ -1,7 +1,7 @@
 # Carousel
 
 ## Introduction
-The site was made with __JavaScript ES6__, in the frame of mu training in 3W Academy.
+The site was made with __JavaScript ES6__, in the frame of my training in 3W Academy.
 
 ## Launch
 To launch the site, open 'index.html'.
