@@ -176,11 +176,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let dots = Array.from(document.querySelectorAll('#dots img'));
     dots.forEach(min => {
         min.addEventListener('click', function() {
-            /* 1.Afficher l'image correspondante dans le slider*/
+            // 1.Afficher l'image correspondante dans le slider
             index = this.dataset.index;
             dipslay();
             
-            /* 2.Rendre opaque les miniatures non affichées dans le slider*/        
+            // 2.Rendre opaque les miniatures non affichées dans le slider
             for (let i = 0; i <= dots.length - 1; i++) {
                 dots[i].classList.remove('opacity');
 
