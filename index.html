@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Caroussel : javaScript - Module 2</title>
+        <title>Caroussel</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <link href="css/lib/normalize.css" rel="stylesheet">
@@ -14,20 +14,13 @@
     </head>
 
     <body>
-        <header class="banner">
-            <a class="banner-link" href="./">
-            <strong class="banner-title">Art de rue</strong>
-            <small>javaScript - Module 2 - Caroussel</small>
-            </a>
-        </header>
-        
         <main class="project container">
             <div class="navigation">
                 <button id="button-auto" class="buttonShow"><i class="fas fa-play-circle"></i></button>
                 <button id="button-stop" class="buttonHide"><i class="fas fa-pause"></i></button>
                 <button id="button-random" class="buttonShow"><i class="fas fa-random"></i></button>
             </div>
-            
+
             <div class="slider">
                 <button id="button-prev" class="button"><i class="fas fa-chevron-left"></i></button>
                 <figure class="active">
@@ -36,19 +29,11 @@
                 </figure>
                 <button id="button-next" class="button"><i class="fas fa-chevron-right"></i></button>
             </div>
-            
+
             <p id=center><span id="compteur"></span></p>
             <ol id="dots"></ol>
         </main>
-        
-        <footer id="mentions" class="mentions">
-            <a href="http://3wa.fr/" title="Site de la 3WA"><img src="img/3wa.png" alt="3W Academy" width="50"></a>
-            <p><strong> &copy; 3W Academy - Formation Développeur WEB - Tous&nbsp;droits&nbsp;réservés</strong><br>
-            Cet exercice est mis à disposition des stagiaires dans le cadre exclusif de leur apprentissage</p>
-            <p>Nous remercions les auteurs de ces photos récoltées sur <a href="https://pixabay.com/" target="_blank">Pixabay</a></p>
-            <a class="goTop" href="#" aria-label="Remonter">↑</a>
-        </footer>
-        
+
         <script src=".3wa/js/resources.js" data-md="resources/objectives.md"></script>
         <script src="utilities.js"></script>
         <script src="main.js"></script>
